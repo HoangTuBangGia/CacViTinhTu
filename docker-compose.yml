@@ -2,7 +2,7 @@ version: "3.8"
 
 services:
   frontend:
-    image: dothanhhoa/cosmos-frontend:latest # Thay bằng tên image React của bạn
+    image: dothanhhoa/cosmos-frontend:latest # Thay bằng tên image Nextjs của bạn
     ports:
       - "3000:3000"
     depends_on:
