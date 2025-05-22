@@ -2,14 +2,14 @@ version: "3.8"
 
 services:
   frontend:
-    image: nextjs-docker:latest # Thay bằng tên image React của bạn
+    image: dothanhhoa/cosmos-frontend:latest # Thay bằng tên image React của bạn
     ports:
       - "3000:3000"
     depends_on:
       - backend
 
   backend:
-    image: django-docker:latest # Thay bằng tên image Django của bạn
+    image: dothanhhoa/cosmos-backend:latest # Thay bằng tên image Django của bạn
     ports:
       - "8000:8000"
     extra_hosts:
